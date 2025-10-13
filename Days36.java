@@ -1,7 +1,7 @@
 package Isc;
 public class Days36 {
     public static void main(String[] args) {
-        int nilai = 70;
+        int nilai = 95;
         if (nilai >= 75) {
             System.out.println(" Lulus");
         if (nilai >= 90 && nilai <= 100) {
