@@ -5,9 +5,9 @@ public class day41 {
         Scanner input = new Scanner(System.in);
         System.out.println("=== Program Evaluasi Mentor ===");
         int teori,praktik;
-        System.out.print("Nilai Teori   : ");
+        System.out.print("Masukan nilai teori   : ");
         teori = input.nextInt();
-        System.out.print("Nilai Praktik : ");
+        System.out.print("Masukan nilai praktik : ");
         praktik = input.nextInt();
         System.out.println("================================");
         System.out.println("Nilai Teori   : " + teori);
