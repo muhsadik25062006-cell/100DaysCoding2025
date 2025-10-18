@@ -14,7 +14,7 @@ public class day41 {
         System.out.println("Nilai Praktik : " + praktik);
         if (teori >= 90 && praktik >= 90) {
             System.out.println("Predikat      : A");
-            System.out.println("Keterangan    : lulus dengan prediat Sangat Baik");
+            System.out.println("Keterangan    : lulus dengan predikat Sangat Baik");
         } 
         else if (teori >= 80 && praktik >= 75) {
             System.out.println("Predikat      : B");
