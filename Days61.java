@@ -11,7 +11,8 @@ public class harike61 {
         System.out.println("\nBilangan kelipatan " + M + " dari 1 sampai " + N + ":");
         
         for (int i = 1; i <= N; i++) {
-            System.out.print((i % M == 0 ? i + " " : ""));
+            String hasil = i % M == 0 ? i + " " : "";
+            System.out.print(hasil);
         }
 
         System.out.println(" ");
