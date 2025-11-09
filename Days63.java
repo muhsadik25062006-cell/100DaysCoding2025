@@ -9,6 +9,6 @@ public class harike63 {
         for (int i = 1; i <= N; i++) {
             total *= i;
         }
-        System.out.println("jumlah dari 1 sampai " + N + " adalah : " + total);
+        System.out.println("faktorial dari 1 sampai " + N + " adalah : " + total);
     }
 }
