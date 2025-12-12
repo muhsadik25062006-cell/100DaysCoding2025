@@ -1,16 +1,16 @@
 package coding100days;
 import java.util.Scanner;
-public class harike97 {
-    static int tambah(int a, int b) {
+public class Harike96 {
+    public static int tambah(int a, int b) {
         return a + b;  
     }
-    static int kurang(int a, int b) {
+    public static int kurang(int a, int b) {
         return a - b;
     }
-    static int kali(int a, int b) {
+    public static int kali(int a, int b) {
         return a * b;
     }
-    static double bagi(int a, int b) {
+    public static double bagi(int a, int b) {
         return (double) a / b;
     }
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class harike97 {
         System.out.print("Masukan angka kedua : ");
         int b = in.nextInt();
         
-        System.out.println("\n===============Hasil================\n");
+        System.out.println("\n===============================\n");
         
         System.out.println("Hasil penjumlahan : " +tambah(a, b));
         System.out.println("Hasil pengurangan : " + kurang(a, b));
@@ -30,3 +30,5 @@ public class harike97 {
         
     }
 }
+
+       
